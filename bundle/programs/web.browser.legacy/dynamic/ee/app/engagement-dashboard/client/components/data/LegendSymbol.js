@@ -1,0 +1,2 @@
+function module(n,e,i){var r,t,o;function l(n){var e=n.color,i=void 0===e?"currentColor":e;return(o.createElement(t,{inlineEnd:"x8"},o.createElement(r,{is:"span","aria-hidden":"true",style:{display:"inline-block",width:12,height:12,borderRadius:2,backgroundColor:i,verticalAlign:"baseline"}})))}i.export({LegendSymbol:function(){return l}}),i.link("@rocket.chat/fuselage",{Box:function(n){r=n},Margins:function(n){t=n}},0),i.link("react",{default:function(n){o=n}},1)}
+

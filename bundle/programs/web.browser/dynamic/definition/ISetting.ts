@@ -1,0 +1,2 @@
+function module(t,e,o){var n,r;o.export({SettingType:()=>n,SettingEditor:()=>r}),function(t){t.BOOLEAN="boolean",t.STRING="string",t.RELATIVE_URL="relativeUrl",t.PASSWORD="password",t.INT="int",t.SELECT="select",t.MULTI_SELECT="multiSelect",t.LANGUAGE="language",t.COLOR="color",t.FONT="font",t.CODE="code",t.ACTION="action",t.ASSET="asset",t.ROOM_PICK="roomPick",t.GROUP="group"}(n||o.runSetters(n={})),function(t){t.COLOR="color",t.EXPRESSION="expression"}(r||o.runSetters(r={}))}
+

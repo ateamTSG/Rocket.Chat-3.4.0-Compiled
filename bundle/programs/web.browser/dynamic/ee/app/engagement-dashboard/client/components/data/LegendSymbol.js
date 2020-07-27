@@ -1,0 +1,2 @@
+function module(e,n,l){let t,i,r;function o(e){let{color:n="currentColor"}=e;return(r.createElement(i,{inlineEnd:"x8"},r.createElement(t,{is:"span","aria-hidden":"true",style:{display:"inline-block",width:12,height:12,borderRadius:2,backgroundColor:n,verticalAlign:"baseline"}})))}l.export({LegendSymbol:()=>o}),l.link("@rocket.chat/fuselage",{Box(e){t=e},Margins(e){i=e}},0),l.link("react",{default(e){r=e}},1)}
+

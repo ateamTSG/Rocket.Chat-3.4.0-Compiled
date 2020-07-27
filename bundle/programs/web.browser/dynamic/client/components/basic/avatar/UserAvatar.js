@@ -1,0 +1,2 @@
+function module(e,t,l){let r,a,n,u;function i(e){let{url:t,username:l}=e,i=a(e,["url","username"]);const c=t||"/avatar/".concat(l);return(n.createElement(u,r({url:c,title:l},i)))}l.link("@babel/runtime/helpers/extends",{default(e){r=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){a=e}},1),l.link("react",{default(e){n=e}},0),l.link("@rocket.chat/fuselage",{Avatar(e){u=e}},1),l.exportDefault(i)}
+

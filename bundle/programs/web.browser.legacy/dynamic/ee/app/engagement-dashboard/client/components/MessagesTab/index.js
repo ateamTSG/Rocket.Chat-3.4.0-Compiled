@@ -1,0 +1,2 @@
+function module(e,n,t){var l,a,c,i;function r(){return a.createElement(a.Fragment,null,a.createElement(c,null),a.createElement(l,null),a.createElement(i,null))}t.export({MessagesTab:function(){return r}}),t.link("@rocket.chat/fuselage",{Divider:function(e){l=e}},0),t.link("react",{default:function(e){a=e}},1),t.link("./MessagesSentSection",{MessagesSentSection:function(e){c=e}},2),t.link("./MessagesPerChannelSection",{MessagesPerChannelSection:function(e){i=e}},3)}
+

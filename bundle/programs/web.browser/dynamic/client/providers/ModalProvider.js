@@ -1,0 +1,2 @@
+function module(e,l,t){let n,o,a,u,c,i,d,r;function m(e){let{children:l}=e;const[t,c]=a(null),m=u(()=>Object.assign(i,{setModal:c}),[]);return o.createElement(r.Provider,{value:m},l,t&&o.createElement(d,null,o.createElement(n.Backdrop,null,t)))}t.link("@rocket.chat/fuselage",{Modal(e){n=e}},0),t.link("react",{default(e){o=e},useState(e){a=e},useMemo(e){u=e},memo(e){c=e}},1),t.link("../../app/ui-utils/client/lib/modal",{modal(e){i=e}},2),t.link("../components/ModalPortal",{default(e){d=e}},3),t.link("../contexts/ModalContext",{ModalContext(e){r=e}},4),t.exportDefault(c(m))}
+

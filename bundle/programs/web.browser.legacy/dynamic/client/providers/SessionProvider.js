@@ -1,0 +1,2 @@
+function module(e,n,t){var r,i,o,c;t.export({SessionProvider:function(){return u}}),t.link("react",{default:function(e){r=e}},0),t.link("meteor/session",{Session:function(e){i=e}},1),t.link("../contexts/SessionContext",{SessionContext:function(e){o=e}},2),t.link("./createObservableFromReactive",{createObservableFromReactive:function(e){c=e}},3);var s={get:c((function(e){return i.get(e)})),set:function(e,n){i.set(e,n)}};function u(e){var n=e.children;return(r.createElement(o.Provider,{children:n,value:s}))}}
+

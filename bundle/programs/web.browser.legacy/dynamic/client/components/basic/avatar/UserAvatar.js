@@ -1,0 +1,2 @@
+function module(e,t,n){var r,u,a,l;function i(e){var t=e.url,n=e.username,i=u(e,["url","username"]),o=t||"/avatar/"+n;return a.createElement(l,r({url:o,title:n},i))}n.link("@babel/runtime/helpers/extends",{default:function(e){r=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){u=e}},1),n.link("react",{default:function(e){a=e}},0),n.link("@rocket.chat/fuselage",{Avatar:function(e){l=e}},1),n.exportDefault(i)}
+

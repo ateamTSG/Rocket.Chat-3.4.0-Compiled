@@ -1,0 +1,2 @@
+function module(r,e,t){let n,c;t.export({useReactiveSubscriptionFactory:()=>o}),t.link("meteor/tracker",{Tracker(r){n=r}},0),t.link("react",{useCallback(r){c=r}},1);const o=r=>c((function(){for(var e=arguments.length,t=new Array(e),c=0;c<e;c++)t[c]=arguments[c];const o=()=>r(...t);return{getCurrentValue:()=>n.nonreactive(o),subscribe:r=>{const e=n.autorun(e=>{o(),e.firstRun||r()});return()=>{e.stop()}}}}),[r])}
+

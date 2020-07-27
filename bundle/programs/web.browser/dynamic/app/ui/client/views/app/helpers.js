@@ -1,0 +1,2 @@
+function module(e,t,g){let a;function n(e,t){let g=arguments.length>2&&void 0!==arguments[2]?arguments[2]:new Date;if(!e)return;const n=new Date(g.getFullYear(),g.getMonth(),g.getDate()-1),l=new Date(g.getFullYear(),g.getMonth(),g.getDate()),o=e.getFullYear()>=l.getFullYear()&&e.getMonth()>=l.getMonth()&&e.getDate()>=l.getDate(),r=e.getFullYear()>=n.getFullYear()&&e.getMonth()>=n.getMonth()&&e.getDate()>=n.getDate(),u=o&&a(e).format("LT"),D=r&&t("yesterday"),Y=a(e).format("MMM D, YYYY");return u||D||Y}g.export({timeAgo:()=>n}),g.link("moment",{default(e){a=e}},0)}
+

@@ -1,0 +1,2 @@
+function module(e,t,a){let n,o,r,u,s;function l(){const e=r("engagement-dashboard"),t=u("tab");return o(()=>{t||e.replace({tab:"users"})},[e,t]),n.createElement(s,{tab:t,onSelectTab:t=>e.push({tab:t})})}a.export({EngagementDashboardRoute:()=>l}),a.link("react",{default(e){n=e},useEffect(e){o=e}},0),a.link("../../../../../client/contexts/RouterContext",{useRoute(e){r=e},useRouteParameter(e){u=e}},1),a.link("./EngagementDashboardPage",{EngagementDashboardPage(e){s=e}},2),a.exportDefault(l)}
+

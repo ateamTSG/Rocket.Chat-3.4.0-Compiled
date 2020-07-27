@@ -1,0 +1,2 @@
+function module(e,t,r){let n,o;function u(e,t,r){let{text:u,itemsPerPage:i,current:l}=e,[s,c]=t,a=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"local";return o(()=>n({query:JSON.stringify({type:r,text:u,workspace:a}),sort:JSON.stringify({[s]:"asc"===c?1:0})},i&&{count:i},{},l&&{offset:l}),[i,l,s,c,r,a,u])}r.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),r.export({useQuery:()=>u}),r.link("react",{useMemo(e){o=e}},0)}
+

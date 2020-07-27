@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,o,s,i;function r(e){const t=i();return(s.createElement(a,l({"aria-label":t("Reset"),danger:!0,ghost:!0,small:!0,title:t("Reset"),style:{padding:0}},e),s.createElement(o,{name:"undo"})))}n.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),n.export({ResetSettingButton:()=>r}),n.link("@rocket.chat/fuselage",{Button(e){a=e},Icon(e){o=e}},0),n.link("react",{default(e){s=e}},1),n.link("../../contexts/TranslationContext",{useTranslation(e){i=e}},2)}
+

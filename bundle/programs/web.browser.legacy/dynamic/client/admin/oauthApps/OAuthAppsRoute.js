@@ -1,0 +1,2 @@
+function module(n,t,e){var u,o,a,i;function l(){var n;return o("manage-oauth-apps")?u.createElement(i,null):u.createElement(a,null)}e.export({default:function(){return l}}),e.link("react",{default:function(n){u=n}},0),e.link("../../contexts/AuthorizationContext",{usePermission:function(n){o=n}},1),e.link("../NotAuthorizedPage",{default:function(n){a=n}},2),e.link("./OAuthAppsPage",{default:function(n){i=n}},3)}
+

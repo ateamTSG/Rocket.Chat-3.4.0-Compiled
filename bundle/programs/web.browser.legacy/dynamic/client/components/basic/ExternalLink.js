@@ -1,0 +1,2 @@
+function module(e,t,n){var r,l,o,i;function u(e){var t=e.children,n=e.to,u=l(e,["children","to"]);return(i.createElement(o,r({is:"a",href:n,target:"_blank",rel:"noopener noreferrer"},u),t||n))}n.link("@babel/runtime/helpers/extends",{default:function(e){r=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){l=e}},1),n.link("@rocket.chat/fuselage",{Box:function(e){o=e}},0),n.link("react",{default:function(e){i=e}},1),n.exportDefault(u)}
+

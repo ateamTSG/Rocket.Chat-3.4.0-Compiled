@@ -1,0 +1,2 @@
+function module(e,t,u){let l,n,r,o,a,s;u.link("react",{default(e){l=e}},0),u.link("../../contexts/SettingsContext",{useSettingStructure(e){n=e}},1),u.link("./groups/AssetsGroupPage",{default(e){r=e}},2),u.link("./groups/OAuthGroupPage",{default(e){o=e}},3),u.link("./groups/GenericGroupPage",{default(e){a=e}},4),u.link("./GroupPage",{default(e){s=e}},5);const c=e=>{let{groupId:t}=e;const u=n(t);return u?"Assets"===t?l.createElement(r,u):"OAuth"===t?l.createElement(o,u):l.createElement(a,u):l.createElement(s.Skeleton,null)};u.exportDefault(c)}
+

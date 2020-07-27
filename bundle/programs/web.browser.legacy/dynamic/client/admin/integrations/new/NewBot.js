@@ -1,0 +1,2 @@
+function module(n,t,e){var o,a,i;function r(){var n=i();return(o.createElement(a,{pb:"x20",fontScale:"s1",key:"bots",dangerouslySetInnerHTML:{__html:n("additional_integrations_Bots")}}))}e.export({default:function(){return r}}),e.link("react",{default:function(n){o=n}},0),e.link("@rocket.chat/fuselage",{Box:function(n){a=n}},1),e.link("../../../contexts/TranslationContext",{useTranslation:function(n){i=n}},2)}
+

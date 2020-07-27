@@ -1,0 +1,2 @@
+function module(t,e,n){var r,o,u,a;n.export({useFormatDateAndTime:function(){return c}}),n.link("react",{useCallback:function(t){r=t}},0),n.link("moment",{default:function(t){o=t}},1),n.link("../contexts/UserContext",{useUserPreference:function(t){u=t}},2),n.link("../contexts/SettingsContext",{useSetting:function(t){a=t}},3);var c=function(){var t=u("clockMode",!1),e=a("Message_TimeAndDateFormat");return r((function(n){switch(t){case 1:return o(n).format("MMMM D, Y h:mm A");case 2:return o(n).format("MMMM D, Y H:mm");default:return o(n).format(e)}}),[t,e])}}
+

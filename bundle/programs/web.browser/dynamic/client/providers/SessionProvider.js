@@ -1,0 +1,2 @@
+function module(e,t,n){let o,r,i,s;n.export({SessionProvider:()=>c}),n.link("react",{default(e){o=e}},0),n.link("meteor/session",{Session(e){r=e}},1),n.link("../contexts/SessionContext",{SessionContext(e){i=e}},2),n.link("./createObservableFromReactive",{createObservableFromReactive(e){s=e}},3);const l={get:s(e=>r.get(e)),set:(e,t)=>{r.set(e,t)}};function c(e){let{children:t}=e;return(o.createElement(i.Provider,{children:t,value:l}))}}
+

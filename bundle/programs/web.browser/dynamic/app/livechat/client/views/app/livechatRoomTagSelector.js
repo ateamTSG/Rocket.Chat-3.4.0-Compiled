@@ -1,0 +1,2 @@
+function module(e,a,t){let l,i,o;t.link("meteor/meteor",{Meteor(e){l=e}},0),t.link("meteor/templating",{Template(e){i=e}},1),t.link("meteor/reactive-var",{ReactiveVar(e){o=e}},2),t.link("./livechatRoomTagSelector.html"),i.livechatRoomTagSelector.helpers({availableTags:()=>i.instance().availableTags.get(),hasAvailableTags(){const e=i.instance().availableTags.get();return e&&e.length>0}}),i.livechatRoomTagSelector.onCreated((function(){this.availableTags=new o([]),l.call("livechat:getTagsList",(e,a)=>{this.availableTags.set(a)})}))}
+

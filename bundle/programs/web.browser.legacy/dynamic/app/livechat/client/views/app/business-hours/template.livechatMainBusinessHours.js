@@ -1,0 +1,2 @@
+function module(){Template.__checkName("livechatMainBusinessHours"),Template.livechatMainBusinessHours=new Template("Template.livechatMainBusinessHours",(function(){var e=this;return Blaze._TemplateWith((function(){return"view-livechat-business-hours"}),(function(){return Spacebars.include(e.lookupTemplate("requiresPermission"),(function(){return["\n        ",Blaze._TemplateWith((function(){return{template:Spacebars.call(e.lookup("getTemplate"))}}),(function(){return Spacebars.include((function(){return Spacebars.call(Template.__dynamic)}))})),"\n    "]}))}))}))}
+

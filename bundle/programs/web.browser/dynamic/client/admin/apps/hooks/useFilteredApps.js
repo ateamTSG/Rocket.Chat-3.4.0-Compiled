@@ -1,0 +1,2 @@
+function module(e,t,r){let n;r.export({useFilteredApps:()=>s}),r.link("react",{useMemo(e){n=e}},0);const s=e=>{let{filterFunction:t=(e=>e?t=>t.name.toLowerCase().indexOf(e.toLowerCase())>-1:()=>!0),text:r,sort:s,current:o,itemsPerPage:a,data:l,dataCache:c}=e;const i=n(()=>{if(Array.isArray(l)){const e=l.slice(0);let n="asc"===s[1]?e:e.reverse();const c=(n=n.filter(t(r))).length,i=o>c?0:o;return[n=n.slice(i,o+a),c]}return[null,0]},[r,s[1],c,o,a]);return[...i]}}
+

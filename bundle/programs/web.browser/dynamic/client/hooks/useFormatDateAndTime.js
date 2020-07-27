@@ -1,0 +1,2 @@
+function module(e,t,n){let r,o,s,a;n.export({useFormatDateAndTime:()=>m}),n.link("react",{useCallback(e){r=e}},0),n.link("moment",{default(e){o=e}},1),n.link("../contexts/UserContext",{useUserPreference(e){s=e}},2),n.link("../contexts/SettingsContext",{useSetting(e){a=e}},3);const m=()=>{const e=s("clockMode",!1),t=a("Message_TimeAndDateFormat");return r(n=>{switch(e){case 1:return o(n).format("MMMM D, Y h:mm A");case 2:return o(n).format("MMMM D, Y H:mm");default:return o(n).format(t)}},[e,t])}}
+

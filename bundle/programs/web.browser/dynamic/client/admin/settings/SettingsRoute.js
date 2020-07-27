@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,r,u,i,a;function d(){const e=r(),t=o("group");return e?l.createElement(i,null,l.createElement(a,{groupId:t})):l.createElement(u,null)}n.export({SettingsRoute:()=>d}),n.link("react",{default(e){l=e}},0),n.link("../../contexts/RouterContext",{useRouteParameter(e){o=e}},1),n.link("../../contexts/SettingsContext",{useIsPrivilegedSettingsContext(e){r=e}},2),n.link("../NotAuthorizedPage",{default(e){u=e}},3),n.link("../../providers/EditableSettingsProvider",{default(e){i=e}},4),n.link("./GroupSelector",{default(e){a=e}},5),n.exportDefault(d)}
+

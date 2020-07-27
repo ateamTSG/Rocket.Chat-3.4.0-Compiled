@@ -1,0 +1,2 @@
+function module(n,t,e){var u,r,f;e.link("@babel/runtime/helpers/slicedToArray",{default:function(n){u=n}},0),e.export({useObservableValue:function(){return i}}),e.link("react",{useEffect:function(n){r=n},useState:function(n){f=n}},0);var i=function(n){var t=f((function(){return n()})),e=u(t,2),i=e[0],o=e[1];return r((function(){var t=!0,e=n((function(n){t&&o(n)}));return function(){t=!1,"function"==typeof e&&e()}}),[n]),i}}
+

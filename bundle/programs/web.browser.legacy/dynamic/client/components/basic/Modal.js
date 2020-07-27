@@ -1,0 +1,2 @@
+function module(e,t,n){var l,o,a,r,u;function c(e){var t=l({},e);return(r.createElement(u,null,r.createElement(a,null,r.createElement(o,t))))}n.link("@babel/runtime/helpers/extends",{default:function(e){l=e}},0),n.export({Modal:function(){return c}}),n.link("@rocket.chat/fuselage",{Modal:function(e){o=e},ModalBackdrop:function(e){a=e}},0),n.link("react",{default:function(e){r=e}},1),n.link("../ModalPortal",{default:function(e){u=e}},2),c.Header=o.Header,c.Footer=o.Footer,c.Content=o.Content,c.Title=o.Title,c.Close=o.Close}
+

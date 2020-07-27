@@ -1,0 +1,2 @@
+function module(n,t,e){var r,u,i,o;e.link("@babel/runtime/helpers/slicedToArray",{default:function(n){r=n}},0),e.export({useReactiveValue:function(){return c}}),e.link("react",{useState:function(n){u=n},useEffect:function(n){i=n}},0),e.link("meteor/tracker",{Tracker:function(n){o=n}},1);var c=function(n){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[],e=u((function(){return o.nonreactive(n)})),c=r(e,2),a=c[0],f=c[1];return i((function(){var t=o.autorun((function(){var t=n();f((function(){return t}))}));return function(){t.stop()}}),t),a}}
+

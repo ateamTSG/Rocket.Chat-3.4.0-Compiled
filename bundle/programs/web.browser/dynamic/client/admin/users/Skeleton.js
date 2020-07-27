@@ -1,0 +1,2 @@
+function module(e,t,l){let n,m,a,r;l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.export({FormSkeleton:()=>c}),l.link("react",{default(e){m=e}},0),l.link("@rocket.chat/fuselage",{Box(e){a=e},Skeleton(e){r=e}},1);const c=e=>m.createElement(a,n({w:"full",pb:"x24"},e),m.createElement(r,{mbe:"x8"}),m.createElement(r,{mbe:"x4"}),m.createElement(r,{mbe:"x4"}),m.createElement(r,{mbe:"x8"}),m.createElement(r,{mbe:"x4"}),m.createElement(r,{mbe:"x8"}))}
+

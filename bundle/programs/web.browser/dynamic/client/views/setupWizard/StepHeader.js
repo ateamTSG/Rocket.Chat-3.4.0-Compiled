@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,a;function c(e){let{number:t,title:n}=e;const c=a();return(o.createElement(l,{is:"header",marginBlockEnd:"x32"},o.createElement(l,{is:"p",fontScale:"c1",color:"hint"},c("Step")," ",t),o.createElement(l,{is:"h2",fontScale:"h1",color:"default"},n)))}n.export({StepHeader:()=>c}),n.link("@rocket.chat/fuselage",{Box(e){l=e}},0),n.link("react",{default(e){o=e}},1),n.link("../../contexts/TranslationContext",{useTranslation(e){a=e}},2)}
+

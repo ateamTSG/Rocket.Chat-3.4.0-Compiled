@@ -1,0 +1,2 @@
+function module(a,e,n){let t,g;n.export({TranslationContext:()=>s,useLanguages:()=>l,useLanguage:()=>o,useLoadLanguage:()=>r,useTranslation:()=>c}),n.link("react",{createContext(a){t=a},useContext(a){g=a}},0);const u=a=>a;u.has=()=>!0;const s=t({languages:[{name:"Default",en:"Default",key:""}],language:"",loadLanguage:async()=>{},translate:u}),l=()=>g(s).languages,o=()=>g(s).language,r=()=>g(s).loadLanguage,c=()=>g(s).translate}
+

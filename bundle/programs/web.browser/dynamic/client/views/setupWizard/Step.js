@@ -1,0 +1,2 @@
+function module(e,t,i){let a,l,r;i.link("@babel/runtime/helpers/extends",{default(e){a=e}},0),i.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){l=e}},1),i.export({Step:()=>n}),i.link("react",{default(e){r=e}},0),i.link("./Step.css");const n=e=>{let{active:t,working:i=!1}=e,n=l(e,["active","working"]);return(r.createElement("form",a({"data-qa":t?"active-step":void 0,className:["SetupWizard__Step",t&&"SetupWizard__Step--active",i&&"SetupWizard__Step--working"].filter(Boolean).join(" "),disabled:i},n)))}}
+
