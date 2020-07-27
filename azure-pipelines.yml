@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'bd5eef49-0d6a-42ec-ac82-eb3fe9a968e6'
   imageRepository: 'rocketchat'
   containerRegistry: 'bluewhalecr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/.docker/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
   
 stages:
